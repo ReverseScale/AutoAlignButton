@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DCADFD1F0635850034F681 /* AutoAlignButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */; };
+		34DCADFE1F0635850034F681 /* RSCardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADFC1F0635850034F681 /* RSCardButton.m */; };
+		34EBFE0C1EB03F11004E5513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE0B1EB03F11004E5513 /* main.m */; };
+		34EBFE0F1EB03F11004E5513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE0E1EB03F11004E5513 /* AppDelegate.m */; };
+		34EBFE121EB03F11004E5513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE111EB03F11004E5513 /* ViewController.m */; };
+		34EBFE151EB03F11004E5513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE131EB03F11004E5513 /* Main.storyboard */; };
+		34EBFE171EB03F11004E5513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE161EB03F11004E5513 /* Assets.xcassets */; };
+		34EBFE1A1EB03F11004E5513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */; };
+		34EBFE251EB03F12004E5513 /* AutoAlignButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE241EB03F12004E5513 /* AutoAlignButtonTests.m */; };
+		34EBFE301EB03F12004E5513 /* AutoAlignButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE2F1EB03F12004E5513 /* AutoAlignButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34EBFE211EB03F12004E5513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EBFDFF1EB03F11004E5513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EBFE061EB03F11004E5513;
+			remoteInfo = AutoAlignButton;
+		};
+		34EBFE2C1EB03F12004E5513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EBFDFF1EB03F11004E5513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EBFE061EB03F11004E5513;
+			remoteInfo = AutoAlignButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34DCADF91F0635850034F681 /* AutoAlignButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAlignButtonView.h; sourceTree = "<group>"; };
+		34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonView.m; sourceTree = "<group>"; };
+		34DCADFB1F0635850034F681 /* RSCardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCardButton.h; sourceTree = "<group>"; };
+		34DCADFC1F0635850034F681 /* RSCardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCardButton.m; sourceTree = "<group>"; };
+		34EBFE071EB03F11004E5513 /* AutoAlignButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAlignButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EBFE0B1EB03F11004E5513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34EBFE0D1EB03F11004E5513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34EBFE0E1EB03F11004E5513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34EBFE101EB03F11004E5513 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34EBFE111EB03F11004E5513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34EBFE141EB03F11004E5513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34EBFE161EB03F11004E5513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34EBFE191EB03F11004E5513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34EBFE1B1EB03F11004E5513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EBFE201EB03F12004E5513 /* AutoAlignButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAlignButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EBFE241EB03F12004E5513 /* AutoAlignButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonTests.m; sourceTree = "<group>"; };
+		34EBFE261EB03F12004E5513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EBFE2B1EB03F12004E5513 /* AutoAlignButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAlignButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EBFE2F1EB03F12004E5513 /* AutoAlignButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonUITests.m; sourceTree = "<group>"; };
+		34EBFE311EB03F12004E5513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EBFE041EB03F11004E5513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE1D1EB03F12004E5513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE281EB03F12004E5513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DCADF81F0635850034F681 /* AutoAlignButtonTools */ = {
+			isa = PBXGroup;
+			children = (
+				34DCADFB1F0635850034F681 /* RSCardButton.h */,
+				34DCADFC1F0635850034F681 /* RSCardButton.m */,
+				34DCADF91F0635850034F681 /* AutoAlignButtonView.h */,
+				34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */,
+			);
+			path = AutoAlignButtonTools;
+			sourceTree = "<group>";
+		};
+		34EBFDFE1EB03F11004E5513 = {
+			isa = PBXGroup;
+			children = (
+				34EBFE091EB03F11004E5513 /* AutoAlignButton */,
+				34EBFE231EB03F12004E5513 /* AutoAlignButtonTests */,
+				34EBFE2E1EB03F12004E5513 /* AutoAlignButtonUITests */,
+				34EBFE081EB03F11004E5513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34EBFE081EB03F11004E5513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EBFE071EB03F11004E5513 /* AutoAlignButton.app */,
+				34EBFE201EB03F12004E5513 /* AutoAlignButtonTests.xctest */,
+				34EBFE2B1EB03F12004E5513 /* AutoAlignButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EBFE091EB03F11004E5513 /* AutoAlignButton */ = {
+			isa = PBXGroup;
+			children = (
+				34DCADF81F0635850034F681 /* AutoAlignButtonTools */,
+				34EBFE0D1EB03F11004E5513 /* AppDelegate.h */,
+				34EBFE0E1EB03F11004E5513 /* AppDelegate.m */,
+				34EBFE101EB03F11004E5513 /* ViewController.h */,
+				34EBFE111EB03F11004E5513 /* ViewController.m */,
+				34EBFE131EB03F11004E5513 /* Main.storyboard */,
+				34EBFE161EB03F11004E5513 /* Assets.xcassets */,
+				34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */,
+				34EBFE1B1EB03F11004E5513 /* Info.plist */,
+				34EBFE0A1EB03F11004E5513 /* Supporting Files */,
+			);
+			path = AutoAlignButton;
+			sourceTree = "<group>";
+		};
+		34EBFE0A1EB03F11004E5513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EBFE0B1EB03F11004E5513 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34EBFE231EB03F12004E5513 /* AutoAlignButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				34EBFE241EB03F12004E5513 /* AutoAlignButtonTests.m */,
+				34EBFE261EB03F12004E5513 /* Info.plist */,
+			);
+			path = AutoAlignButtonTests;
+			sourceTree = "<group>";
+		};
+		34EBFE2E1EB03F12004E5513 /* AutoAlignButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34EBFE2F1EB03F12004E5513 /* AutoAlignButtonUITests.m */,
+				34EBFE311EB03F12004E5513 /* Info.plist */,
+			);
+			path = AutoAlignButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EBFE061EB03F11004E5513 /* AutoAlignButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EBFE341EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButton" */;
+			buildPhases = (
+				34EBFE031EB03F11004E5513 /* Sources */,
+				34EBFE041EB03F11004E5513 /* Frameworks */,
+				34EBFE051EB03F11004E5513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoAlignButton;
+			productName = AutoAlignButton;
+			productReference = 34EBFE071EB03F11004E5513 /* AutoAlignButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34EBFE1F1EB03F12004E5513 /* AutoAlignButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EBFE371EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButtonTests" */;
+			buildPhases = (
+				34EBFE1C1EB03F12004E5513 /* Sources */,
+				34EBFE1D1EB03F12004E5513 /* Frameworks */,
+				34EBFE1E1EB03F12004E5513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EBFE221EB03F12004E5513 /* PBXTargetDependency */,
+			);
+			name = AutoAlignButtonTests;
+			productName = AutoAlignButtonTests;
+			productReference = 34EBFE201EB03F12004E5513 /* AutoAlignButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34EBFE2A1EB03F12004E5513 /* AutoAlignButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EBFE3A1EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButtonUITests" */;
+			buildPhases = (
+				34EBFE271EB03F12004E5513 /* Sources */,
+				34EBFE281EB03F12004E5513 /* Frameworks */,
+				34EBFE291EB03F12004E5513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EBFE2D1EB03F12004E5513 /* PBXTargetDependency */,
+			);
+			name = AutoAlignButtonUITests;
+			productName = AutoAlignButtonUITests;
+			productReference = 34EBFE2B1EB03F12004E5513 /* AutoAlignButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EBFDFF1EB03F11004E5513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34EBFE061EB03F11004E5513 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Q9P59Q8E6S;
+						ProvisioningStyle = Automatic;
+					};
+					34EBFE1F1EB03F12004E5513 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34EBFE061EB03F11004E5513;
+					};
+					34EBFE2A1EB03F12004E5513 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34EBFE061EB03F11004E5513;
+					};
+				};
+			};
+			buildConfigurationList = 34EBFE021EB03F11004E5513 /* Build configuration list for PBXProject "AutoAlignButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EBFDFE1EB03F11004E5513;
+			productRefGroup = 34EBFE081EB03F11004E5513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EBFE061EB03F11004E5513 /* AutoAlignButton */,
+				34EBFE1F1EB03F12004E5513 /* AutoAlignButtonTests */,
+				34EBFE2A1EB03F12004E5513 /* AutoAlignButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EBFE051EB03F11004E5513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBFE1A1EB03F11004E5513 /* LaunchScreen.storyboard in Resources */,
+				34EBFE171EB03F11004E5513 /* Assets.xcassets in Resources */,
+				34EBFE151EB03F11004E5513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE1E1EB03F12004E5513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE291EB03F12004E5513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EBFE031EB03F11004E5513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBFE121EB03F11004E5513 /* ViewController.m in Sources */,
+				34EBFE0F1EB03F11004E5513 /* AppDelegate.m in Sources */,
+				34EBFE0C1EB03F11004E5513 /* main.m in Sources */,
+				34DCADFE1F0635850034F681 /* RSCardButton.m in Sources */,
+				34DCADFD1F0635850034F681 /* AutoAlignButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE1C1EB03F12004E5513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBFE251EB03F12004E5513 /* AutoAlignButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EBFE271EB03F12004E5513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBFE301EB03F12004E5513 /* AutoAlignButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34EBFE221EB03F12004E5513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EBFE061EB03F11004E5513 /* AutoAlignButton */;
+			targetProxy = 34EBFE211EB03F12004E5513 /* PBXContainerItemProxy */;
+		};
+		34EBFE2D1EB03F12004E5513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EBFE061EB03F11004E5513 /* AutoAlignButton */;
+			targetProxy = 34EBFE2C1EB03F12004E5513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34EBFE131EB03F11004E5513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EBFE141EB03F11004E5513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EBFE191EB03F11004E5513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34EBFE321EB03F12004E5513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34EBFE331EB03F12004E5513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EBFE351EB03F12004E5513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9P59Q8E6S;
+				INFOPLIST_FILE = AutoAlignButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34EBFE361EB03F12004E5513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9P59Q8E6S;
+				INFOPLIST_FILE = AutoAlignButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34EBFE381EB03F12004E5513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoAlignButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAlignButton.app/AutoAlignButton";
+			};
+			name = Debug;
+		};
+		34EBFE391EB03F12004E5513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoAlignButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAlignButton.app/AutoAlignButton";
+			};
+			name = Release;
+		};
+		34EBFE3B1EB03F12004E5513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoAlignButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoAlignButton;
+			};
+			name = Debug;
+		};
+		34EBFE3C1EB03F12004E5513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoAlignButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.AutoAlignButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoAlignButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EBFE021EB03F11004E5513 /* Build configuration list for PBXProject "AutoAlignButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBFE321EB03F12004E5513 /* Debug */,
+				34EBFE331EB03F12004E5513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EBFE341EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBFE351EB03F12004E5513 /* Debug */,
+				34EBFE361EB03F12004E5513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EBFE371EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBFE381EB03F12004E5513 /* Debug */,
+				34EBFE391EB03F12004E5513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EBFE3A1EB03F12004E5513 /* Build configuration list for PBXNativeTarget "AutoAlignButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBFE3B1EB03F12004E5513 /* Debug */,
+				34EBFE3C1EB03F12004E5513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EBFDFF1EB03F11004E5513 /* Project object */;
+}
