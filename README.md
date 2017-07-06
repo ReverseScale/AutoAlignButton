@@ -9,7 +9,10 @@
 
 ### 我的技术博客：https://reversescale.github.io 欢迎来踩
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/43420438.jpg)
+| 名称 |1.列表页 |2.展示页 |
+| ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/3784951.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/46502091.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | AutoAlignButton封装创建 |
 
 ## Requirements 要求
 * iOS 7+
