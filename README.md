@@ -7,8 +7,6 @@
 
 日常开发中对卡片布局需求很多，而 CollectionView 的量级又过重，就想着封装一份轻量级的卡片布局工具，基于 UIView+UIButton，支持图片、文字、自适应布局和手势等，使用安全方便。
 
-### 我的技术博客：https://reversescale.github.io 欢迎来踩
-
 | 名称 |1.列表页 |2.展示页 |
 | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/3784951.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/46502091.jpg) |
@@ -61,9 +59,14 @@
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
 ### 你的star是我持续更新的动力!
 
-## 联系方式:
+
+## License 许可证
+AutoAlignButton 使用 MIT 许可证，详情见 LICENSE 文件。
+
+
+## Contact 联系方式:
 * WeChat : WhatsXie
 * Email : ReverseScale@iCloud.com
-* QQ : 1129998515
+* Blog : https://reversescale.github.io
 
 
