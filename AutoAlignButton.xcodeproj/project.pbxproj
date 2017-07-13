@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CD13CC1F1704FD00F136BC /* WordVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */; };
+		34CD13CF1F17051100F136BC /* LoadAverageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13CE1F17051100F136BC /* LoadAverageViewController.m */; };
+		34CD13D21F17059400F136BC /* AutoAlignTextButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13D11F17059400F136BC /* AutoAlignTextButtonView.m */; };
 		34DCADFD1F0635850034F681 /* AutoAlignButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */; };
 		34DCADFE1F0635850034F681 /* RSCardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADFC1F0635850034F681 /* RSCardButton.m */; };
 		34EBFE0C1EB03F11004E5513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE0B1EB03F11004E5513 /* main.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34CD13CA1F1704FD00F136BC /* WordVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordVersionViewController.h; sourceTree = "<group>"; };
+		34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordVersionViewController.m; sourceTree = "<group>"; };
+		34CD13CD1F17051100F136BC /* LoadAverageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAverageViewController.h; sourceTree = "<group>"; };
+		34CD13CE1F17051100F136BC /* LoadAverageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAverageViewController.m; sourceTree = "<group>"; };
+		34CD13D01F17059400F136BC /* AutoAlignTextButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAlignTextButtonView.h; sourceTree = "<group>"; };
+		34CD13D11F17059400F136BC /* AutoAlignTextButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAlignTextButtonView.m; sourceTree = "<group>"; };
 		34DCADF91F0635850034F681 /* AutoAlignButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAlignButtonView.h; sourceTree = "<group>"; };
 		34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonView.m; sourceTree = "<group>"; };
 		34DCADFB1F0635850034F681 /* RSCardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCardButton.h; sourceTree = "<group>"; };
@@ -91,6 +100,8 @@
 				34DCADFC1F0635850034F681 /* RSCardButton.m */,
 				34DCADF91F0635850034F681 /* AutoAlignButtonView.h */,
 				34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */,
+				34CD13D01F17059400F136BC /* AutoAlignTextButtonView.h */,
+				34CD13D11F17059400F136BC /* AutoAlignTextButtonView.m */,
 			);
 			path = AutoAlignButtonTools;
 			sourceTree = "<group>";
@@ -123,6 +134,10 @@
 				34EBFE0E1EB03F11004E5513 /* AppDelegate.m */,
 				34EBFE101EB03F11004E5513 /* ViewController.h */,
 				34EBFE111EB03F11004E5513 /* ViewController.m */,
+				34CD13CD1F17051100F136BC /* LoadAverageViewController.h */,
+				34CD13CE1F17051100F136BC /* LoadAverageViewController.m */,
+				34CD13CA1F1704FD00F136BC /* WordVersionViewController.h */,
+				34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */,
 				34EBFE131EB03F11004E5513 /* Main.storyboard */,
 				34EBFE161EB03F11004E5513 /* Assets.xcassets */,
 				34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */,
@@ -295,8 +310,11 @@
 				34EBFE121EB03F11004E5513 /* ViewController.m in Sources */,
 				34EBFE0F1EB03F11004E5513 /* AppDelegate.m in Sources */,
 				34EBFE0C1EB03F11004E5513 /* main.m in Sources */,
+				34CD13CF1F17051100F136BC /* LoadAverageViewController.m in Sources */,
+				34CD13D21F17059400F136BC /* AutoAlignTextButtonView.m in Sources */,
 				34DCADFE1F0635850034F681 /* RSCardButton.m in Sources */,
 				34DCADFD1F0635850034F681 /* AutoAlignButtonView.m in Sources */,
+				34CD13CC1F1704FD00F136BC /* WordVersionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
