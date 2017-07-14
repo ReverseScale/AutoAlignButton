@@ -12,6 +12,13 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/3784951.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/46502091.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | AutoAlignButton封装创建 |
 
+## Advantage 框架的优势
+* 1.轻量化架构，文件少，代码简洁
+* 2.不依赖任何其他第三方库
+* 3.分离图文实现和文字按钮实现
+* 4.支持SDWebImage或者YYWebImage的扩展
+* 5.具备较高自定义性
+
 ## Requirements 要求
 * iOS 7+
 * Xcode 8+
