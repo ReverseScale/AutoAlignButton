@@ -27,7 +27,7 @@ AutoAlignButtonTools
 
 ## Installation 安装
 ### 1.手动安装:
-`下载Demo后,将子文件夹拖入到项目中, 导入头文件后开始使用。`
+`下载Demo后,将功能文件夹拖入到项目中, 导入头文件后开始使用。`
 ### 2.CocoaPods安装:
 修改“Podfile”文件
 ```
