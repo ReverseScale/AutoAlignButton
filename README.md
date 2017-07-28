@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/download-791K-brightgreen.svg)
 [![CocoaPods](http://img.shields.io/cocoapods/v/AutoAlignButtonTools.svg?style=flat)](http://cocoapods.org/pods/AutoAlignButtonTools)&nbsp;
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
-[![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButtonTools.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButton)
+[![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)
 
 日常开发中对卡片布局需求很多，而 CollectionView 的量级又过重，就想着封装一份轻量级的卡片布局工具，基于 UIView+UIButton，支持图片、文字、自适应布局和手势等，使用安全方便。
 
