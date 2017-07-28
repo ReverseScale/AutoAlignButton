@@ -7,6 +7,8 @@
 
 日常开发中对卡片布局需求很多，而 CollectionView 的量级又过重，就想着封装一份轻量级的卡片布局工具，基于 UIView+UIButton，支持图片、文字、自适应布局和手势等，使用安全方便。
 
+AutoAlignButtonTools
+
 | 名称 |1.列表页 |2.展示页 |
 | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/3784951.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/46502091.jpg) |
@@ -22,6 +24,20 @@
 ## Requirements 要求
 * iOS 7+
 * Xcode 8+
+
+## Installation 安装
+### 1.手动安装:
+`下载Demo后,将子文件夹拖入到项目中, 导入头文件后开始使用。`
+### 2.CocoaPods安装:
+first
+```
+pod 'AutoAlignButtonTools',:git => 'https://github.com/ReverseScale/AutoAlignButtonToolsCocoapodsDemo.git'
+```
+then (pod install --no-repo-update)
+```
+pod install
+```
+> 如果 pod search 发现不是最新版本，在终端执行pod setup命令更新本地spec镜像缓存，重新搜索就OK了
 
 ## Usage 使用方法
 ### AutoAlignButtonView 封装方法
