@@ -3,7 +3,8 @@
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-791K-brightgreen.svg
-) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
+) [![CocoaPods](http://img.shields.io/cocoapods/v/AutoAlignButtonTools.svg?style=flat)](http://cocoapods.org/pods/AutoAlignButtonTools)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/AutoAlignButtonTools.svg?style=flat)](http://cocoadocs.org/docsets/YYKit)&nbsp;![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 日常开发中对卡片布局需求很多，而 CollectionView 的量级又过重，就想着封装一份轻量级的卡片布局工具，基于 UIView+UIButton，支持图片、文字、自适应布局和手势等，使用安全方便。
 
