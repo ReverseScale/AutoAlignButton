@@ -29,11 +29,11 @@ AutoAlignButtonTools
 ### 1.手动安装:
 `下载Demo后,将子文件夹拖入到项目中, 导入头文件后开始使用。`
 ### 2.CocoaPods安装:
-first
+修改“Podfile”文件
 ```
 pod 'AutoAlignButtonTools',:git => 'https://github.com/ReverseScale/AutoAlignButtonToolsCocoapodsDemo.git'
 ```
-then (pod install --no-repo-update)
+控制台执行 Pods 安装命令 （ 简化安装：pod install --no-repo-update ）
 ```
 pod install
 ```
