@@ -2,8 +2,10 @@
 
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
 
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-791K-brightgreen.svg
-) [![CocoaPods](http://img.shields.io/cocoapods/v/AutoAlignButtonTools.svg?style=flat)](http://cocoapods.org/pods/AutoAlignButtonTools)&nbsp;
+![](https://img.shields.io/badge/platform-iOS-red.svg) 
+![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
+![](https://img.shields.io/badge/download-791K-brightgreen.svg)
+[![CocoaPods](http://img.shields.io/cocoapods/v/AutoAlignButtonTools.svg?style=flat)](http://cocoapods.org/pods/AutoAlignButtonTools)&nbsp;
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButtonTools.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButtonTools)
 
