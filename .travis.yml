@@ -2,3 +2,6 @@ language: objective-c
 xcode_project: ./AutoAlignButton.xcodeproj
 xcode_scheme: AutoAlignButton
 osx_image: xcode8.3
+
+script:
+- xctool -project ./AutoAlignButton.xcodeproj -scheme AutoAlignButton build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
