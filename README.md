@@ -13,10 +13,10 @@
 
 AutoAlignButtonTools
 
-| 名称 |1.列表页 |2.展示页 |
-| ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/3784951.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/46502091.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | AutoAlignButton封装创建 |
+| 名称 |1.列表页 |2.基于Button实现 |3.基于Label实现 |4.基于collectionView实现 |5.可编辑collectionView实现 |6.图文Button实现 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/24441803.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/17083630.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/8920945.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/85439061.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/38983256.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/66404166.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | 使用 UIButton+UIView 实现 | 基于 UILabel 实现 | 使用 UICollectionView+UIView 实现 | 可编辑UICollectionView+UIView 实现 | 基于 UIButton 的图文混合实现 |
 
 ## Advantage 框架的优势
 * 1.轻量化架构，文件少，代码简洁
