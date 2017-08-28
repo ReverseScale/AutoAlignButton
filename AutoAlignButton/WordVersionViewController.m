@@ -23,7 +23,7 @@
 }
 - (void)setupTextButton {
     AutoAlignTextButtonView *view = [AutoAlignTextButtonView new];
-    view.dataArray = @[@"投资", @"回款回款", @"提现", @"奖励", @"充值",@"转让",@"活动", @"提现", @"奖励", @"充值",@"转让",@"活动"];
+    view.dataArray = @[@"C", @"Go", @"Python", @"Objective-C", @"PHP",@"Java",@"C++", @"MATLAB", @"Perl", @"Ruby",@"C#",@"Nimei"];
     view.frame = CGRectMake(10, 100, self.view.bounds.size.width - 20, 0);
     view.buttonVerticalPadding = 3.5;
     view.delegate = self;

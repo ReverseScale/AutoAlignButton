@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     AutoAlignButtonView *view = [AutoAlignButtonView new];
-    view.dataTitleArray = @[@"活动中心", @"邀请好友", @"会员中心"];
+    view.dataTitleArray = @[@"Java", @"Swift", @"HTML"];
     view.dataImagesArray = @[@"cat", @"dog", @"cat"];
     view.frame = CGRectMake(0, 100, self.view.bounds.size.width, 0);
     view.isScratchableLatex = YES;
