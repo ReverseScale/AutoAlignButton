@@ -15,9 +15,9 @@ Routine development on the card layout needs a lot, and the the CollectionView h
 ### 🎨 What does the test UI look like?
 
 | Name | 1. Multiple implementation list page | 2 based on the Button implementation | 3 based on the Label implementation | 4 editable collection implementation | 5 graphic mixed Button implementation |
-| ------------- | ------------- | ------------- | ------- ------ | ------------- | ------------- |
-| Screenshots |![] (Http://og1yl0w9z.bkt.clouddn.com/17-8-28/24441803.jpg) |![] (Http://og1yl0w9z.bkt.clouddn.com/17-8- 28 / 17083630.jpg) |![] (Http://og1yl0w9z.bkt.clouddn.com/17-8-28/8920945.jpg) |![] (Http://og1yl0w9z.bkt.clouddn.com/ 17-8-28 / 38983256.jpg) |![] (Http://og1yl0w9z.bkt.clouddn.com/17-8-28/66404166.jpg) |
-|UIButton + UIView implementation | UILabel + UIView implementation | Editable UICollectionView implementation | Graphic and textual hybrid implementation based on UIButton + UIView |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Screenshots | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/24441803.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/17083630.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/8920945.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/38983256.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/66404166.jpg) |
+| Description | Through the storyboard to build the basic framework | UIButton + UIView implementation | UILabel + UIView implementation | Editable UICollectionView implementation | Graphic and textual hybrid implementation based on UIButton + UIView |
 
 ## 🚀 Advantage 
 * 1. Lightweight architecture, fewer files, concise code
