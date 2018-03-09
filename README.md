@@ -1,13 +1,15 @@
 # AutoAlignButton
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
-
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/download-791K-brightgreen.svg)
 [![CocoaPods](http://img.shields.io/cocoapods/v/AutoAlignButtonTools.svg?style=flat)](http://cocoapods.org/pods/AutoAlignButtonTools)&nbsp;
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)
+
+![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
+
+[EN](#Requirements) | [中文](#中文说明)
 
 Routine development on the card layout needs a lot, and the the CollectionView heavy and heavy, wanted to package a lightweight card layout tools, based on the UIButton follow-up and make up UICollectionView and UILabel based on the realization of support for pictures, text , Adaptive layout and gestures, the use of safe and convenient.
 (Swift version: https://github.com/ReverseScale/AutoAlignButtonSwift)
