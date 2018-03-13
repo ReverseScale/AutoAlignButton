@@ -224,6 +224,6 @@ SOFTWARE.
 
 
 ## 😬 联系方式:
-* WeChat : WhatsXie
-* Email : ReverseScale@iCloud.com
-* Blog : https://reversescale.github.io
+* 微信 : WhatsXie
+* 邮箱 : ReverseScale@iCloud.com
+* 博客 : https://reversescale.github.io
