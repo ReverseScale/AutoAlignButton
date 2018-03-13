@@ -46,7 +46,7 @@ pod install
 ```
 > If the pod search found is not the latest version, the terminal pod setup command to update the local spec image cache, search again OK
 
-##  🛠 Usage Usage
+##  🛠 Usage
 ### AutoAlignButtonView wrapper method
 #### 1. The basic method
 ```objc
