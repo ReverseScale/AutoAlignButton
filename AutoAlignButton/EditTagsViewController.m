@@ -108,10 +108,8 @@
 #pragma mark - SDCollectionTagsViewDelegate
 - (void)RSCollectionTagsView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    
     TagsModel *tagsModel;
-    if (indexPath.section ==0) //我的标签
-    {
+    if (indexPath.section ==0) {
         tagsModel = self.myTagsArr[indexPath.row];
         [self.myTagsArr removeObjectAtIndex:indexPath.row];
         [self.moreTagsArr insertObject:tagsModel atIndex:0];
@@ -123,8 +121,7 @@
         
     }
     
-    if (indexPath.section ==1) //所有标签
-    {
+    if (indexPath.section ==1) {
         tagsModel =self.moreTagsArr[indexPath.row];
         [self.moreTagsArr removeObjectAtIndex:indexPath.row];
         [self.myTagsArr insertObject:tagsModel atIndex:0];
@@ -138,5 +135,4 @@
     }
     
 }
-
 @end
