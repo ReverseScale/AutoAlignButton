@@ -16,10 +16,10 @@ Routine development on the card layout needs a lot, and the the CollectionView h
 
 ### 🎨 What does the test UI look like?
 
-| 1. Multiple implementation list page | 2 based on the Button implementation | 3 based on the Label implementation | 4 editable collection implementation | 5 graphic mixed Button implementation |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/24441803.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/17083630.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/8920945.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/38983256.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/66404166.jpg) |
-| Through the storyboard to build the basic framework | UIButton + UIView implementation | UILabel + UIView implementation | Editable UICollectionView implementation | Graphic and textual hybrid implementation based on UIButton + UIView |
+| 1. Multiple implementation list page | 2 based on the Button implementation | 3 based on the Label implementation | 4 graphic mixed Button implementation |
+| ------------- | ------------- | ------------- | ------------- | 
+| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/96183113.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/79297328.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/48664315.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/18178223.jpg) |
+| Through the storyboard to build the basic framework | UIButton + UIView implementation | UILabel + UIView implementation | Graphic and textual hybrid implementation based on UIButton + UIView |
 
 ## 🚀 Advantage 
 * 1. Lightweight architecture, fewer files, concise code
@@ -125,10 +125,10 @@ SOFTWARE.
 
 ### 🎨 测试 UI 什么样子？
 
-|1.多种实现列表页 |2.基于 Button 实现 |3.基于 Label 实现 |4.可编辑 collection 实现 |5.图文混合 Button 实现 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/24441803.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/17083630.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/8920945.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/38983256.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-28/66404166.jpg) |
-| 通过 storyboard 搭建基本框架 | 使用 UIButton+UIView 实现 | 基于 UILabel+UIView 实现 | 可编辑UICollectionView 实现 | 基于 UIButton+UIView 的图文混合实现 |
+|1.多种实现列表页 |2.基于 Button 实现 |3.基于 Label 实现 |4.图文混合 Button 实现 |
+| ------------- | ------------- | ------------- | ------------- | 
+| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/96183113.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/79297328.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/48664315.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/18178223.jpg) |
+| 通过 storyboard 搭建基本框架 | 使用 UIButton+UIView 实现 | 基于 UILabel+UIView 实现 | 基于 UIButton+UIView 的图文混合实现 |
 
 ##  🚀 框架的优势
 * 1.轻量化架构，文件少，代码简洁
