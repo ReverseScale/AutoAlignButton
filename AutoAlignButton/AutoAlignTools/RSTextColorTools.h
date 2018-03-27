@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface RSTextColorTools : NSObject
+@interface RSTextColorTools: NSObject
 
 /**
   计算文字长度

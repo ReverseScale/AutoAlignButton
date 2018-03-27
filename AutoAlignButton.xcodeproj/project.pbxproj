@@ -16,6 +16,7 @@
 		341406891F5406E500671195 /* RSLabelTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341406881F5406E500671195 /* RSLabelTagsView.m */; };
 		3414068C1F54093F00671195 /* EditTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3414068B1F54093F00671195 /* EditTagsViewController.m */; };
 		3414068F1F54097E00671195 /* RSEditCollectionTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3414068E1F54097E00671195 /* RSEditCollectionTagsView.m */; };
+		342D08462069F162008D0F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D08452069F162008D0F8D /* LaunchScreen.storyboard */; };
 		34CD13CC1F1704FD00F136BC /* WordVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */; };
 		34CD13CF1F17051100F136BC /* LoadAverageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13CE1F17051100F136BC /* LoadAverageViewController.m */; };
 		34CD13D21F17059400F136BC /* AutoAlignTextButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13D11F17059400F136BC /* AutoAlignTextButtonView.m */; };
@@ -26,7 +27,6 @@
 		34EBFE121EB03F11004E5513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE111EB03F11004E5513 /* ViewController.m */; };
 		34EBFE151EB03F11004E5513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE131EB03F11004E5513 /* Main.storyboard */; };
 		34EBFE171EB03F11004E5513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE161EB03F11004E5513 /* Assets.xcassets */; };
-		34EBFE1A1EB03F11004E5513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */; };
 		34EBFE251EB03F12004E5513 /* AutoAlignButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE241EB03F12004E5513 /* AutoAlignButtonTests.m */; };
 		34EBFE301EB03F12004E5513 /* AutoAlignButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBFE2F1EB03F12004E5513 /* AutoAlignButtonUITests.m */; };
 /* End PBXBuildFile section */
@@ -66,6 +66,7 @@
 		3414068B1F54093F00671195 /* EditTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTagsViewController.m; sourceTree = "<group>"; };
 		3414068D1F54097E00671195 /* RSEditCollectionTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSEditCollectionTagsView.h; sourceTree = "<group>"; };
 		3414068E1F54097E00671195 /* RSEditCollectionTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSEditCollectionTagsView.m; sourceTree = "<group>"; };
+		342D08452069F162008D0F8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34CD13CA1F1704FD00F136BC /* WordVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordVersionViewController.h; sourceTree = "<group>"; };
 		34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordVersionViewController.m; sourceTree = "<group>"; };
 		34CD13CD1F17051100F136BC /* LoadAverageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAverageViewController.h; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 		34EBFE111EB03F11004E5513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34EBFE141EB03F11004E5513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34EBFE161EB03F11004E5513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34EBFE191EB03F11004E5513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34EBFE1B1EB03F11004E5513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EBFE201EB03F12004E5513 /* AutoAlignButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAlignButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EBFE241EB03F12004E5513 /* AutoAlignButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonTests.m; sourceTree = "<group>"; };
@@ -129,25 +129,66 @@
 			path = TagsModel;
 			sourceTree = "<group>";
 		};
-		34DCADF81F0635850034F681 /* AutoAlignButtonTools */ = {
+		342D08472069F3BD008D0F8D /* DemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13CD1F17051100F136BC /* LoadAverageViewController.h */,
+				34CD13CE1F17051100F136BC /* LoadAverageViewController.m */,
+				34CD13CA1F1704FD00F136BC /* WordVersionViewController.h */,
+				34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */,
+				341406721F54029500671195 /* CollectionTagsViewController.h */,
+				341406731F54029500671195 /* CollectionTagsViewController.m */,
+				341406841F54069500671195 /* LabelTagsViewController.h */,
+				341406851F54069500671195 /* LabelTagsViewController.m */,
+				3414068A1F54093F00671195 /* EditTagsViewController.h */,
+				3414068B1F54093F00671195 /* EditTagsViewController.m */,
+			);
+			path = DemoViewController;
+			sourceTree = "<group>";
+		};
+		342D08482069F3E0008D0F8D /* ButtonAchieve */ = {
 			isa = PBXGroup;
 			children = (
 				34DCADFB1F0635850034F681 /* RSCardButton.h */,
 				34DCADFC1F0635850034F681 /* RSCardButton.m */,
-				341406811F5403C200671195 /* RSTextColorTools.h */,
-				341406821F5403C200671195 /* RSTextColorTools.m */,
-				341406871F5406E500671195 /* RSLabelTagsView.h */,
-				341406881F5406E500671195 /* RSLabelTagsView.m */,
-				3414067E1F54038000671195 /* RSCollectionTagsView.h */,
-				3414067F1F54038000671195 /* RSCollectionTagsView.m */,
-				3414068D1F54097E00671195 /* RSEditCollectionTagsView.h */,
-				3414068E1F54097E00671195 /* RSEditCollectionTagsView.m */,
 				34DCADF91F0635850034F681 /* AutoAlignButtonView.h */,
 				34DCADFA1F0635850034F681 /* AutoAlignButtonView.m */,
 				34CD13D01F17059400F136BC /* AutoAlignTextButtonView.h */,
 				34CD13D11F17059400F136BC /* AutoAlignTextButtonView.m */,
 			);
-			path = AutoAlignButtonTools;
+			path = ButtonAchieve;
+			sourceTree = "<group>";
+		};
+		342D08492069F41A008D0F8D /* CollectionAchieve */ = {
+			isa = PBXGroup;
+			children = (
+				3414067E1F54038000671195 /* RSCollectionTagsView.h */,
+				3414067F1F54038000671195 /* RSCollectionTagsView.m */,
+				3414068D1F54097E00671195 /* RSEditCollectionTagsView.h */,
+				3414068E1F54097E00671195 /* RSEditCollectionTagsView.m */,
+			);
+			path = CollectionAchieve;
+			sourceTree = "<group>";
+		};
+		342D084A2069F444008D0F8D /* LabelAchieve */ = {
+			isa = PBXGroup;
+			children = (
+				341406871F5406E500671195 /* RSLabelTagsView.h */,
+				341406881F5406E500671195 /* RSLabelTagsView.m */,
+			);
+			path = LabelAchieve;
+			sourceTree = "<group>";
+		};
+		34DCADF81F0635850034F681 /* AutoAlignTools */ = {
+			isa = PBXGroup;
+			children = (
+				341406811F5403C200671195 /* RSTextColorTools.h */,
+				341406821F5403C200671195 /* RSTextColorTools.m */,
+				342D084A2069F444008D0F8D /* LabelAchieve */,
+				342D08492069F41A008D0F8D /* CollectionAchieve */,
+				342D08482069F3E0008D0F8D /* ButtonAchieve */,
+			);
+			path = AutoAlignTools;
 			sourceTree = "<group>";
 		};
 		34EBFDFE1EB03F11004E5513 = {
@@ -173,25 +214,16 @@
 		34EBFE091EB03F11004E5513 /* AutoAlignButton */ = {
 			isa = PBXGroup;
 			children = (
-				341406751F5402C700671195 /* TagsModel */,
-				34DCADF81F0635850034F681 /* AutoAlignButtonTools */,
 				34EBFE0D1EB03F11004E5513 /* AppDelegate.h */,
 				34EBFE0E1EB03F11004E5513 /* AppDelegate.m */,
 				34EBFE101EB03F11004E5513 /* ViewController.h */,
 				34EBFE111EB03F11004E5513 /* ViewController.m */,
-				34CD13CD1F17051100F136BC /* LoadAverageViewController.h */,
-				34CD13CE1F17051100F136BC /* LoadAverageViewController.m */,
-				34CD13CA1F1704FD00F136BC /* WordVersionViewController.h */,
-				34CD13CB1F1704FD00F136BC /* WordVersionViewController.m */,
-				341406721F54029500671195 /* CollectionTagsViewController.h */,
-				341406731F54029500671195 /* CollectionTagsViewController.m */,
-				341406841F54069500671195 /* LabelTagsViewController.h */,
-				341406851F54069500671195 /* LabelTagsViewController.m */,
-				3414068A1F54093F00671195 /* EditTagsViewController.h */,
-				3414068B1F54093F00671195 /* EditTagsViewController.m */,
+				342D08472069F3BD008D0F8D /* DemoViewController */,
+				341406751F5402C700671195 /* TagsModel */,
+				34DCADF81F0635850034F681 /* AutoAlignTools */,
 				34EBFE131EB03F11004E5513 /* Main.storyboard */,
 				34EBFE161EB03F11004E5513 /* Assets.xcassets */,
-				34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */,
+				342D08452069F162008D0F8D /* LaunchScreen.storyboard */,
 				34EBFE1B1EB03F11004E5513 /* Info.plist */,
 				34EBFE0A1EB03F11004E5513 /* Supporting Files */,
 			);
@@ -331,8 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EBFE1A1EB03F11004E5513 /* LaunchScreen.storyboard in Resources */,
 				341406791F5402C700671195 /* tagsData.plist in Resources */,
+				342D08462069F162008D0F8D /* LaunchScreen.storyboard in Resources */,
 				34EBFE171EB03F11004E5513 /* Assets.xcassets in Resources */,
 				34EBFE151EB03F11004E5513 /* Main.storyboard in Resources */,
 			);
@@ -416,14 +448,6 @@
 				34EBFE141EB03F11004E5513 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34EBFE181EB03F11004E5513 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34EBFE191EB03F11004E5513 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

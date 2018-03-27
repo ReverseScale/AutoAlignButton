@@ -20,17 +20,15 @@
 @end
 @implementation RSLabelTagsView
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
-        [self setUP];
-        
+        [self setup];
     }
     return self;
 }
 
--(void)setUP{
+- (void)setup {
     // 创建标签容器
     _tagsView = [[UIView alloc] init];
     _tagsView.frame  = CGRectMake(0, 64, mDeviceWidth, 300);
@@ -39,26 +37,20 @@
     [self addSubview:_tagsView];
 }
 
-+ (instancetype)rsLabTagsViewWithTagsArr:(NSArray *)tagsArr{
++ (instancetype)rsLabTagsViewWithTagsArr:(NSArray *)tagsArr {
     RSLabelTagsView *sdLabTagsView =[[RSLabelTagsView alloc]init];
     sdLabTagsView.tagsArr =tagsArr;
     [sdLabTagsView setUItags:tagsArr];
     return sdLabTagsView;
 }
 
--(void)setUItags:(NSArray *)arr{
-    
+- (void)setUItags:(NSArray *)arr {
     int width = 10;
-    
     int j = 0;
-    
     int row = 1;
     
-    
     for (int i = 0 ; i < arr.count; i++) {
-        
         TagsModel *model =arr[i];
-        
         int labWidth = [RSTextColorTools widthForLabel:model.title fontSize:16]+10;
         UILabel *label = [[UILabel alloc] init];
         label.frame = CGRectMake(5*j + width, row * 30, labWidth, 22);
@@ -73,23 +65,15 @@
         label.layer.borderColor = [RSTextColorTools getColor:model.color].CGColor;
 
         [_tagsView addSubview:label];
-        
         width = width + labWidth;
-        
         j++;
         
         if (width > mDeviceWidth - 50) {
-            
             j = 0;
-            
             width = 10;
-            
             row++;
-            
             label.frame = CGRectMake(5*j + width,row * 30, labWidth, 22);
-            
             width = width + labWidth;
-            
             j++;
         }
     }

@@ -32,17 +32,14 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self setUP];
+        [self setup];
     }
     return self;
 }
 
-- (void)setUP {
-    
+- (void)setup {
     [self addSubview:self.collectionView];
 }
-
-
 
 - (UICollectionView *)collectionView {
     if (!_collectionView) {
@@ -65,7 +62,6 @@
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
     TagsModel *model =self.tagsArr[indexPath.row];
     CGFloat width = [RSTextColorTools widthForLabel:[NSString stringWithFormat:@"%@",model.title] fontSize:16];
     return CGSizeMake(width+10,22);
@@ -73,7 +69,6 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:RStagsView forIndexPath:indexPath];
     TagsModel *model =self.tagsArr[indexPath.row];
-    
     UILabel *label = [[UILabel alloc] init];
     label.text = [NSString stringWithFormat:@"%@",model.title];
     label.frame = CGRectMake(0, 0, ([RSTextColorTools widthForLabel:label.text fontSize:16] + 10), 22);

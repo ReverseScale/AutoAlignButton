@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RSLabelTagsView : UIView
+@interface RSLabelTagsView: UIView
 @property (nonatomic,strong)NSArray *tagsArr;
-+(instancetype)rsLabTagsViewWithTagsArr:(NSArray *)tagsArr;
++ (instancetype)rsLabTagsViewWithTagsArr:(NSArray *)tagsArr;
 @end

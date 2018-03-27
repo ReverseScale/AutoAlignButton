@@ -10,15 +10,15 @@
 
 @implementation TagsModel
 
--(instancetype )initWithTagsDict:(NSDictionary *)dict{
-    self =[super init];
-    if(self ){
+- (instancetype )initWithTagsDict:(NSDictionary *)dict {
+    self = [super init];
+    if(self) {
         [self setValuesForKeysWithDictionary:dict];
     }
     return self;
 }
 
-+(instancetype)tagsModelWithDict:(NSDictionary *)dict{
++ (instancetype)tagsModelWithDict:(NSDictionary *)dict {
     return [[self alloc]initWithTagsDict:dict];
 }
 @end

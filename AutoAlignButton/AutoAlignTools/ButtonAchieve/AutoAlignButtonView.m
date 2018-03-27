@@ -52,7 +52,6 @@
     [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     return button;
 }
-
 - (CGFloat)buttonWidthForButton:(RSCardButton *)button {
     if (self.isScratchableLatex) {
         CGFloat labelWidth = (self.frame.size.width - 60) / self.countHorizonal;
@@ -65,7 +64,6 @@
         return (labelWidth + 2*padding);
     }
 }
-
 - (void)addViews {
     CGFloat buttonMargin = 30.0;
     CGFloat buttonTotalMaxWidth = self.frame.size.width - 2*buttonMargin;
@@ -95,7 +93,7 @@
                     lines += 1;
                 }
             }
-        }else{
+        } else {
             currentButtonFrame.origin.x = buttonMargin + currentButtonTotalWidth + self.buttonHorizonalPadding;
             currentButtonFrame.origin.y = buttonTopMargin + (currentButtonFrame.size.height + self.buttonVerticalPadding) * (lines - 1);
             currentButton.frame = currentButtonFrame;
@@ -127,6 +125,5 @@
 - (void)btnAction:(RSCardButton *)button {
     [self.delegate btnDelegateAction:button];
 }
-
 
 @end

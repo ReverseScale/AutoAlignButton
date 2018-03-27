@@ -40,12 +40,12 @@
     }
     return _dataArr;
 }
+
 - (void)setUp{
     RSLabelTagsView *sdTagsView =[RSLabelTagsView rsLabTagsViewWithTagsArr:self.dataArr];
     sdTagsView.frame =CGRectMake(0,0,mDeviceWidth,300);
     [self.view addSubview:sdTagsView];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

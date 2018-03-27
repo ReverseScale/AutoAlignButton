@@ -20,6 +20,6 @@
  */
 @property (nonatomic,strong)NSString *color;
 
--(instancetype )initWithTagsDict:(NSDictionary *)dict;
-+(instancetype)tagsModelWithDict:(NSDictionary *)dict;
+- (instancetype )initWithTagsDict:(NSDictionary *)dict;
++ (instancetype)tagsModelWithDict:(NSDictionary *)dict;
 @end

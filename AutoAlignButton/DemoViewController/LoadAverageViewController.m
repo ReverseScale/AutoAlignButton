@@ -30,8 +30,7 @@
 }
 
 - (void)btnDelegateAction:(UIButton *)button {
-    NSString *msg = [NSString stringWithFormat:@"你点击了<%@>",button.titleLabel.text];
-    NSLog(@"----%@",msg);
+    NSLog(@"%@", [NSString stringWithFormat:@"你点击了<%@>",button.titleLabel.text]);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

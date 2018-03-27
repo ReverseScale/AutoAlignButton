@@ -12,7 +12,7 @@
 - (void)btnDelegateAction:(UIButton *)button;
 @end
 
-@interface AutoAlignTextButtonView : UIView{
+@interface AutoAlignTextButtonView: UIView{
     NSMutableArray *_buttons;
 }
 // 数据

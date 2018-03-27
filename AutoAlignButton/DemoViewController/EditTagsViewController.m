@@ -52,6 +52,7 @@
     [self.tagsView reloadData];
     
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -90,7 +91,6 @@
     }
     return _dataArr;
 }
-
 
 - (RSEditCollectionTagsView *)tagsView {
     if (!_tagsView){
@@ -131,8 +131,6 @@
         [self.dataArr addObject:self.myTagsArr];
         [self.dataArr addObject:self.moreTagsArr];
         [self.tagsView reloadData];
-        
     }
-    
 }
 @end
