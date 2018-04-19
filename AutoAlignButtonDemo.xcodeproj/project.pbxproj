@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0849AC9CC9B292D1E52A5C1F /* libPods-AutoAlignButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55349C6F7D7025F43BB6F0F2 /* libPods-AutoAlignButtonDemo.a */; };
+		34513230208891DF001D186E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451322F208891DF001D186E /* AppDelegate.m */; };
+		34513238208891DF001D186E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34513237208891DF001D186E /* Assets.xcassets */; };
+		3451323E208891DF001D186E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451323D208891DF001D186E /* main.m */; };
+		34513248208891DF001D186E /* AutoAlignButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34513247208891DF001D186E /* AutoAlignButtonDemoTests.m */; };
+		34513253208891DF001D186E /* AutoAlignButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34513252208891DF001D186E /* AutoAlignButtonDemoUITests.m */; };
+		3451326120889297001D186E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3451326020889297001D186E /* Main.storyboard */; };
+		34513264208892A0001D186E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34513262208892A0001D186E /* ViewController.m */; };
+		3451327620889344001D186E /* RSCollectionTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451326E20889344001D186E /* RSCollectionTagsView.m */; };
+		3451327720889344001D186E /* RSEditCollectionTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451327020889344001D186E /* RSEditCollectionTagsView.m */; };
+		3451327820889344001D186E /* RSLabelTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451327320889344001D186E /* RSLabelTagsView.m */; };
+		3451327920889344001D186E /* RSTextColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451327520889344001D186E /* RSTextColorTools.m */; };
+		3451328520889354001D186E /* CollectionTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451327C20889354001D186E /* CollectionTagsViewController.m */; };
+		3451328620889354001D186E /* EditTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451327E20889354001D186E /* EditTagsViewController.m */; };
+		3451328720889354001D186E /* LabelTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451328020889354001D186E /* LabelTagsViewController.m */; };
+		3451328820889354001D186E /* LoadAverageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451328220889354001D186E /* LoadAverageViewController.m */; };
+		3451328920889354001D186E /* WordVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451328420889354001D186E /* WordVersionViewController.m */; };
+		3451328E2088935D001D186E /* tagsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3451328B2088935D001D186E /* tagsData.plist */; };
+		3451328F2088935D001D186E /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451328D2088935D001D186E /* TagsModel.m */; };
+		34513291208893EC001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34513290208893EB001D186E /* Default.png */; };
+		34513293208893F2001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34513292208893F1001D186E /* LaunchScreen.storyboard */; };
+		C022E9F2412D073A9D19D944 /* libPods-AutoAlignButtonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B565339545C286F9CF9208BB /* libPods-AutoAlignButtonDemoTests.a */; };
+		ED8C03375CF7DE6865849EDC /* libPods-AutoAlignButtonDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120AD9F8BA9DA8EA41BAF0F9 /* libPods-AutoAlignButtonDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34513244208891DF001D186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34513223208891DF001D186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3451322A208891DF001D186E;
+			remoteInfo = AutoAlignButtonDemo;
+		};
+		3451324F208891DF001D186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34513223208891DF001D186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3451322A208891DF001D186E;
+			remoteInfo = AutoAlignButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120AD9F8BA9DA8EA41BAF0F9 /* libPods-AutoAlignButtonDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoAlignButtonDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3451322B208891DF001D186E /* AutoAlignButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAlignButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3451322E208891DF001D186E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3451322F208891DF001D186E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34513237208891DF001D186E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3451323C208891DF001D186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3451323D208891DF001D186E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34513243208891DF001D186E /* AutoAlignButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAlignButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34513247208891DF001D186E /* AutoAlignButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonDemoTests.m; sourceTree = "<group>"; };
+		34513249208891DF001D186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3451324E208891DF001D186E /* AutoAlignButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAlignButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34513252208891DF001D186E /* AutoAlignButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAlignButtonDemoUITests.m; sourceTree = "<group>"; };
+		34513254208891DF001D186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3451326020889297001D186E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34513262208892A0001D186E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34513263208892A0001D186E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3451326D20889344001D186E /* RSCollectionTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCollectionTagsView.h; sourceTree = "<group>"; };
+		3451326E20889344001D186E /* RSCollectionTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCollectionTagsView.m; sourceTree = "<group>"; };
+		3451326F20889344001D186E /* RSEditCollectionTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSEditCollectionTagsView.h; sourceTree = "<group>"; };
+		3451327020889344001D186E /* RSEditCollectionTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSEditCollectionTagsView.m; sourceTree = "<group>"; };
+		3451327220889344001D186E /* RSLabelTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLabelTagsView.h; sourceTree = "<group>"; };
+		3451327320889344001D186E /* RSLabelTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLabelTagsView.m; sourceTree = "<group>"; };
+		3451327420889344001D186E /* RSTextColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTextColorTools.h; sourceTree = "<group>"; };
+		3451327520889344001D186E /* RSTextColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTextColorTools.m; sourceTree = "<group>"; };
+		3451327B20889354001D186E /* CollectionTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTagsViewController.h; sourceTree = "<group>"; };
+		3451327C20889354001D186E /* CollectionTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTagsViewController.m; sourceTree = "<group>"; };
+		3451327D20889354001D186E /* EditTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTagsViewController.h; sourceTree = "<group>"; };
+		3451327E20889354001D186E /* EditTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTagsViewController.m; sourceTree = "<group>"; };
+		3451327F20889354001D186E /* LabelTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTagsViewController.h; sourceTree = "<group>"; };
+		3451328020889354001D186E /* LabelTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTagsViewController.m; sourceTree = "<group>"; };
+		3451328120889354001D186E /* LoadAverageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAverageViewController.h; sourceTree = "<group>"; };
+		3451328220889354001D186E /* LoadAverageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAverageViewController.m; sourceTree = "<group>"; };
+		3451328320889354001D186E /* WordVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordVersionViewController.h; sourceTree = "<group>"; };
+		3451328420889354001D186E /* WordVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordVersionViewController.m; sourceTree = "<group>"; };
+		3451328B2088935D001D186E /* tagsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tagsData.plist; sourceTree = "<group>"; };
+		3451328C2088935D001D186E /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
+		3451328D2088935D001D186E /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
+		34513290208893EB001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34513292208893F1001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55349C6F7D7025F43BB6F0F2 /* libPods-AutoAlignButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoAlignButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582CD352E34B9B1F6C665F43 /* Pods-AutoAlignButtonDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemoUITests/Pods-AutoAlignButtonDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B21D414EC298212A712C0A29 /* Pods-AutoAlignButtonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemoTests/Pods-AutoAlignButtonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B565339545C286F9CF9208BB /* libPods-AutoAlignButtonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoAlignButtonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB4D5E1CEA9F3BA1378DBEA /* Pods-AutoAlignButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemo/Pods-AutoAlignButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EEA1346EE19D18B05C016396 /* Pods-AutoAlignButtonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemoTests/Pods-AutoAlignButtonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5AB6DD3B98A8B15FD158E60 /* Pods-AutoAlignButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemo/Pods-AutoAlignButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F772B11DCD46F9A7D2BBA404 /* Pods-AutoAlignButtonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlignButtonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoAlignButtonDemoUITests/Pods-AutoAlignButtonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34513228208891DF001D186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0849AC9CC9B292D1E52A5C1F /* libPods-AutoAlignButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34513240208891DF001D186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C022E9F2412D073A9D19D944 /* libPods-AutoAlignButtonDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3451324B208891DF001D186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C03375CF7DE6865849EDC /* libPods-AutoAlignButtonDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34513222208891DF001D186E = {
+			isa = PBXGroup;
+			children = (
+				3451322D208891DF001D186E /* AutoAlignButtonDemo */,
+				34513246208891DF001D186E /* AutoAlignButtonDemoTests */,
+				34513251208891DF001D186E /* AutoAlignButtonDemoUITests */,
+				3451322C208891DF001D186E /* Products */,
+				FEAF675B28B9212229DF7138 /* Pods */,
+				9C486D048EB081FE0C5579EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3451322C208891DF001D186E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3451322B208891DF001D186E /* AutoAlignButtonDemo.app */,
+				34513243208891DF001D186E /* AutoAlignButtonDemoTests.xctest */,
+				3451324E208891DF001D186E /* AutoAlignButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3451322D208891DF001D186E /* AutoAlignButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3451322E208891DF001D186E /* AppDelegate.h */,
+				3451322F208891DF001D186E /* AppDelegate.m */,
+				34513263208892A0001D186E /* ViewController.h */,
+				34513262208892A0001D186E /* ViewController.m */,
+				3451328A2088935D001D186E /* TagsModel */,
+				3451327A20889354001D186E /* DemoViewController */,
+				3451326B20889344001D186E /* AutoAlignTools */,
+				3451326020889297001D186E /* Main.storyboard */,
+				34513237208891DF001D186E /* Assets.xcassets */,
+				34513292208893F1001D186E /* LaunchScreen.storyboard */,
+				34513290208893EB001D186E /* Default.png */,
+				3451323C208891DF001D186E /* Info.plist */,
+				3451323D208891DF001D186E /* main.m */,
+			);
+			path = AutoAlignButtonDemo;
+			sourceTree = "<group>";
+		};
+		34513246208891DF001D186E /* AutoAlignButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34513247208891DF001D186E /* AutoAlignButtonDemoTests.m */,
+				34513249208891DF001D186E /* Info.plist */,
+			);
+			path = AutoAlignButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		34513251208891DF001D186E /* AutoAlignButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34513252208891DF001D186E /* AutoAlignButtonDemoUITests.m */,
+				34513254208891DF001D186E /* Info.plist */,
+			);
+			path = AutoAlignButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		3451326B20889344001D186E /* AutoAlignTools */ = {
+			isa = PBXGroup;
+			children = (
+				3451326C20889344001D186E /* CollectionAchieve */,
+				3451327120889344001D186E /* LabelAchieve */,
+				3451327420889344001D186E /* RSTextColorTools.h */,
+				3451327520889344001D186E /* RSTextColorTools.m */,
+			);
+			path = AutoAlignTools;
+			sourceTree = "<group>";
+		};
+		3451326C20889344001D186E /* CollectionAchieve */ = {
+			isa = PBXGroup;
+			children = (
+				3451326D20889344001D186E /* RSCollectionTagsView.h */,
+				3451326E20889344001D186E /* RSCollectionTagsView.m */,
+				3451326F20889344001D186E /* RSEditCollectionTagsView.h */,
+				3451327020889344001D186E /* RSEditCollectionTagsView.m */,
+			);
+			path = CollectionAchieve;
+			sourceTree = "<group>";
+		};
+		3451327120889344001D186E /* LabelAchieve */ = {
+			isa = PBXGroup;
+			children = (
+				3451327220889344001D186E /* RSLabelTagsView.h */,
+				3451327320889344001D186E /* RSLabelTagsView.m */,
+			);
+			path = LabelAchieve;
+			sourceTree = "<group>";
+		};
+		3451327A20889354001D186E /* DemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3451327B20889354001D186E /* CollectionTagsViewController.h */,
+				3451327C20889354001D186E /* CollectionTagsViewController.m */,
+				3451327D20889354001D186E /* EditTagsViewController.h */,
+				3451327E20889354001D186E /* EditTagsViewController.m */,
+				3451327F20889354001D186E /* LabelTagsViewController.h */,
+				3451328020889354001D186E /* LabelTagsViewController.m */,
+				3451328120889354001D186E /* LoadAverageViewController.h */,
+				3451328220889354001D186E /* LoadAverageViewController.m */,
+				3451328320889354001D186E /* WordVersionViewController.h */,
+				3451328420889354001D186E /* WordVersionViewController.m */,
+			);
+			path = DemoViewController;
+			sourceTree = "<group>";
+		};
+		3451328A2088935D001D186E /* TagsModel */ = {
+			isa = PBXGroup;
+			children = (
+				3451328B2088935D001D186E /* tagsData.plist */,
+				3451328C2088935D001D186E /* TagsModel.h */,
+				3451328D2088935D001D186E /* TagsModel.m */,
+			);
+			path = TagsModel;
+			sourceTree = "<group>";
+		};
+		9C486D048EB081FE0C5579EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55349C6F7D7025F43BB6F0F2 /* libPods-AutoAlignButtonDemo.a */,
+				B565339545C286F9CF9208BB /* libPods-AutoAlignButtonDemoTests.a */,
+				120AD9F8BA9DA8EA41BAF0F9 /* libPods-AutoAlignButtonDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAF675B28B9212229DF7138 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5AB6DD3B98A8B15FD158E60 /* Pods-AutoAlignButtonDemo.debug.xcconfig */,
+				DAB4D5E1CEA9F3BA1378DBEA /* Pods-AutoAlignButtonDemo.release.xcconfig */,
+				EEA1346EE19D18B05C016396 /* Pods-AutoAlignButtonDemoTests.debug.xcconfig */,
+				B21D414EC298212A712C0A29 /* Pods-AutoAlignButtonDemoTests.release.xcconfig */,
+				582CD352E34B9B1F6C665F43 /* Pods-AutoAlignButtonDemoUITests.debug.xcconfig */,
+				F772B11DCD46F9A7D2BBA404 /* Pods-AutoAlignButtonDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3451322A208891DF001D186E /* AutoAlignButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34513257208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemo" */;
+			buildPhases = (
+				FDC67877D3FCC508D1A55FCB /* [CP] Check Pods Manifest.lock */,
+				34513227208891DF001D186E /* Sources */,
+				34513228208891DF001D186E /* Frameworks */,
+				34513229208891DF001D186E /* Resources */,
+				C257994D1EC5AA35A5FE9369 /* [CP] Embed Pods Frameworks */,
+				7E46CF955EBCC2A334A4DE9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoAlignButtonDemo;
+			productName = AutoAlignButtonDemo;
+			productReference = 3451322B208891DF001D186E /* AutoAlignButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34513242208891DF001D186E /* AutoAlignButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3451325A208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemoTests" */;
+			buildPhases = (
+				D144123D8D6B000201622797 /* [CP] Check Pods Manifest.lock */,
+				3451323F208891DF001D186E /* Sources */,
+				34513240208891DF001D186E /* Frameworks */,
+				34513241208891DF001D186E /* Resources */,
+				D46462AD8F231E5DA7311021 /* [CP] Embed Pods Frameworks */,
+				CC2177BB2C3E3F0E4AE97255 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34513245208891DF001D186E /* PBXTargetDependency */,
+			);
+			name = AutoAlignButtonDemoTests;
+			productName = AutoAlignButtonDemoTests;
+			productReference = 34513243208891DF001D186E /* AutoAlignButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3451324D208891DF001D186E /* AutoAlignButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3451325D208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemoUITests" */;
+			buildPhases = (
+				57A7BAEED3276105436AAF68 /* [CP] Check Pods Manifest.lock */,
+				3451324A208891DF001D186E /* Sources */,
+				3451324B208891DF001D186E /* Frameworks */,
+				3451324C208891DF001D186E /* Resources */,
+				A7084C39042159E963F6459A /* [CP] Embed Pods Frameworks */,
+				CA40F31CB9B5C1AE62412671 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34513250208891DF001D186E /* PBXTargetDependency */,
+			);
+			name = AutoAlignButtonDemoUITests;
+			productName = AutoAlignButtonDemoUITests;
+			productReference = 3451324E208891DF001D186E /* AutoAlignButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34513223208891DF001D186E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WhatsXie;
+				TargetAttributes = {
+					3451322A208891DF001D186E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					34513242208891DF001D186E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3451322A208891DF001D186E;
+					};
+					3451324D208891DF001D186E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3451322A208891DF001D186E;
+					};
+				};
+			};
+			buildConfigurationList = 34513226208891DF001D186E /* Build configuration list for PBXProject "AutoAlignButtonDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34513222208891DF001D186E;
+			productRefGroup = 3451322C208891DF001D186E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3451322A208891DF001D186E /* AutoAlignButtonDemo */,
+				34513242208891DF001D186E /* AutoAlignButtonDemoTests */,
+				3451324D208891DF001D186E /* AutoAlignButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34513229208891DF001D186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3451326120889297001D186E /* Main.storyboard in Resources */,
+				3451328E2088935D001D186E /* tagsData.plist in Resources */,
+				34513238208891DF001D186E /* Assets.xcassets in Resources */,
+				34513293208893F2001D186E /* LaunchScreen.storyboard in Resources */,
+				34513291208893EC001D186E /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34513241208891DF001D186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3451324C208891DF001D186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57A7BAEED3276105436AAF68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoAlignButtonDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E46CF955EBCC2A334A4DE9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemo/Pods-AutoAlignButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7084C39042159E963F6459A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemoUITests/Pods-AutoAlignButtonDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C257994D1EC5AA35A5FE9369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemo/Pods-AutoAlignButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA40F31CB9B5C1AE62412671 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemoUITests/Pods-AutoAlignButtonDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2177BB2C3E3F0E4AE97255 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemoTests/Pods-AutoAlignButtonDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D144123D8D6B000201622797 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoAlignButtonDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46462AD8F231E5DA7311021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoAlignButtonDemoTests/Pods-AutoAlignButtonDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC67877D3FCC508D1A55FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoAlignButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34513227208891DF001D186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3451328620889354001D186E /* EditTagsViewController.m in Sources */,
+				3451328820889354001D186E /* LoadAverageViewController.m in Sources */,
+				3451327920889344001D186E /* RSTextColorTools.m in Sources */,
+				3451327620889344001D186E /* RSCollectionTagsView.m in Sources */,
+				34513264208892A0001D186E /* ViewController.m in Sources */,
+				3451328520889354001D186E /* CollectionTagsViewController.m in Sources */,
+				3451323E208891DF001D186E /* main.m in Sources */,
+				3451328720889354001D186E /* LabelTagsViewController.m in Sources */,
+				3451328F2088935D001D186E /* TagsModel.m in Sources */,
+				3451327720889344001D186E /* RSEditCollectionTagsView.m in Sources */,
+				34513230208891DF001D186E /* AppDelegate.m in Sources */,
+				3451327820889344001D186E /* RSLabelTagsView.m in Sources */,
+				3451328920889354001D186E /* WordVersionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3451323F208891DF001D186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34513248208891DF001D186E /* AutoAlignButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3451324A208891DF001D186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34513253208891DF001D186E /* AutoAlignButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34513245208891DF001D186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3451322A208891DF001D186E /* AutoAlignButtonDemo */;
+			targetProxy = 34513244208891DF001D186E /* PBXContainerItemProxy */;
+		};
+		34513250208891DF001D186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3451322A208891DF001D186E /* AutoAlignButtonDemo */;
+			targetProxy = 3451324F208891DF001D186E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34513255208891DF001D186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34513256208891DF001D186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34513258208891DF001D186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AB6DD3B98A8B15FD158E60 /* Pods-AutoAlignButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34513259208891DF001D186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB4D5E1CEA9F3BA1378DBEA /* Pods-AutoAlignButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3451325B208891DF001D186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA1346EE19D18B05C016396 /* Pods-AutoAlignButtonDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAlignButtonDemo.app/AutoAlignButtonDemo";
+			};
+			name = Debug;
+		};
+		3451325C208891DF001D186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21D414EC298212A712C0A29 /* Pods-AutoAlignButtonDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAlignButtonDemo.app/AutoAlignButtonDemo";
+			};
+			name = Release;
+		};
+		3451325E208891DF001D186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582CD352E34B9B1F6C665F43 /* Pods-AutoAlignButtonDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoAlignButtonDemo;
+			};
+			name = Debug;
+		};
+		3451325F208891DF001D186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F772B11DCD46F9A7D2BBA404 /* Pods-AutoAlignButtonDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoAlignButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.R.S.AutoAlignButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoAlignButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34513226208891DF001D186E /* Build configuration list for PBXProject "AutoAlignButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34513255208891DF001D186E /* Debug */,
+				34513256208891DF001D186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34513257208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34513258208891DF001D186E /* Debug */,
+				34513259208891DF001D186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3451325A208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3451325B208891DF001D186E /* Debug */,
+				3451325C208891DF001D186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3451325D208891DF001D186E /* Build configuration list for PBXNativeTarget "AutoAlignButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3451325E208891DF001D186E /* Debug */,
+				3451325F208891DF001D186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34513223208891DF001D186E /* Project object */;
+}

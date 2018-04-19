@@ -1,18 +1,18 @@
 //
-//  AutoAlignButtonTests.m
-//  AutoAlignButtonTests
+//  AutoAlignButtonDemoTests.m
+//  AutoAlignButtonDemoTests
 //
-//  Created by StevenXie on 2017/4/26.
-//  Copyright © 2017年 StevenXie. All rights reserved.
+//  Created by WhatsXie on 2018/4/19.
+//  Copyright © 2018年 WhatsXie. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface AutoAlignButtonTests : XCTestCase
+@interface AutoAlignButtonDemoTests : XCTestCase
 
 @end
 
-@implementation AutoAlignButtonTests
+@implementation AutoAlignButtonDemoTests
 
 - (void)setUp {
     [super setUp];
