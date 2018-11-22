@@ -7,8 +7,6 @@
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
-
 [EN](https://github.com/ReverseScale/AutoAlignButton) | [中文](https://github.com/ReverseScale/AutoAlignButton/blob/master/README_zh.md)
 
 Routine development on the card layout needs a lot, and the the CollectionView heavy and heavy, wanted to package a lightweight card layout tools, based on the UIButton follow-up and make up UICollectionView and UILabel based on the realization of support for pictures, text , Adaptive layout and gestures, the use of safe and convenient.
