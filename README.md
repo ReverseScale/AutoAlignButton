@@ -17,10 +17,10 @@ Swift version: https://github.com/ReverseScale/AutoAlignButtonSwift
 
 ### 🎨 What does the test UI look like?
 
-| 1. Multiple implementation list page | 2 based on the Button implementation | 3 based on the Label implementation | 4 graphic mixed Button implementation |
-| ------------- | ------------- | ------------- | ------------- | 
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/96183113.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/79297328.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/48664315.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/18178223.jpg) |
-| Through the storyboard to build the basic | UIButton + UIView implementation | UILabel + UIView implementation | Graphic and textual hybrid implementation based |
+| 1 Multiple implementation list page | 2 Based on the Button implementation | 3 Based on the Label implementation | 4 graphic mixed Button implementation | 5 Edit graphic mixed Button implementation |
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/68340444.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/1476850.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/55603120.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/40565159.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/37194807.jpg) |
+| Through the storyboard to build the basic | UIButton + UIView implementation | UILabel + UIView implementation | Graphic and textual hybrid implementation based | Edited graphic and textual hybrid implementation based |
 
 ## 🚀 Advantage 
 * 1. Lightweight architecture, fewer files, concise code
