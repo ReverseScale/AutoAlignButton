@@ -17,10 +17,10 @@ Swift 版：https://github.com/ReverseScale/AutoAlignButtonSwift
 
 ### 🎨 测试 UI 什么样子？
 
-|1.多种实现列表页 |2.基于 Button 实现 |3.基于 Label 实现 |4.图文混合 Button 实现 |
-| ------------- | ------------- | ------------- | ------------- | 
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/96183113.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/79297328.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/48664315.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/18178223.jpg) |
-| 通过 storyboard 搭建基本框架 | 使用 UIButton+UIView 实现 | 基于 UILabel+UIView 实现 | 基于 UIButton+UIView 的图文混合实现 |
+|1.多种实现列表页 |2.基于 Button 实现 |3.基于 Label 实现 |4.图文混合 Button 实现 |5.可编辑标签 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/68340444.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/1476850.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/55603120.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/40565159.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/37194807.jpg) |
+| 通过 storyboard 搭建基本框架 | 使用 UIButton+UIView 实现 | 基于 UILabel+UIView 实现 | 基于 UIButton+UIView 的图文混合实现 | 分组可编辑标签页 |
 
 ##  🚀 框架的优势
 * 1.轻量化架构，文件少，代码简洁
