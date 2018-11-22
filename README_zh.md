@@ -7,8 +7,6 @@
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 [![Build Status](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)](https://travis-ci.org/ReverseScale/AutoAlignButton.svg?branch=master)
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/11846761.jpg)
-
 [EN](https://github.com/ReverseScale/AutoAlignButton) | [中文](https://github.com/ReverseScale/AutoAlignButton/blob/master/README_zh.md)
 
 日常开发中对卡片布局需求很多，而 CollectionView 的量级又过重，就想着封装一份轻量级的卡片布局工具，基于 UIButton 后续又补上基于 UICollectionView 和 UILabel 的实现方式，支持图片、文字、自适应布局和手势等，使用安全方便。
